@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-use-before-define": ["error", "nofunc"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+  },
+  "globals": {
+    "__DEV__": "readonly",
+    "document": "readonly",
+  }
+}
