@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { get } from '../utils';
-import Text from '../UILibrary/Typography/Text';
+import { get } from '../../utils';
+import Text from '../../UILibrary/Typography/Text';
 
 export const Answer = styled(Text)(({ theme }) => {
   const { answer } = theme.ui;

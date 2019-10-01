@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ButtonNeutral, ButtonNegative } from '../UILibrary/Button';
-import ToggleView from '../UILibrary/ToggleView';
+import ToggleView from '../../UILibrary/ToggleView';
+import ButtonGroup from '../../UILibrary/ButtonGroup';
+import { ButtonNeutral, ButtonNegative } from '../../UILibrary/Button';
 import { Answer, AnswerToggle, QuestionContent } from './styled';
-import ButtonGroup from '../UILibrary/ButtonGroup';
 
 const QuestionToggleView = ({ question, onEdit, onDelete }) => {
   return (
