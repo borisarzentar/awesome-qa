@@ -11,13 +11,8 @@ let globalId = 0;
 const initialState = [
   {
     id: (globalId += 1),
-    question: 'What is your name?',
-    answer: 'Boris',
-  },
-  {
-    id: (globalId += 1),
-    question: 'What is your age?',
-    answer: '29',
+    question: 'How to add a question?',
+    answer: 'Just use the form below!',
   },
 ];
 
