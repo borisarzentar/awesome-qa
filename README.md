@@ -5,6 +5,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 It is using React, Redux and styled-components for theming and styling.
 
+## Install
+
+Install npm dependencies by running `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
