@@ -4,9 +4,10 @@ import styled from 'styled-components';
 
 const Toggle = ({ children, onClick, className }) => {
   return (
-    <button onClick={onClick} type="button" className={className}>
+    // eslint-disable-next-line jsx-a11y/no-static-element-interactions,jsx-a11y/click-events-have-key-events
+    <div onClick={onClick} className={className}>
       {children}
-    </button>
+    </div>
   );
 };
 

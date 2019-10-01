@@ -104,7 +104,11 @@ describe('Form', () => {
   });
 
   it('should reset values to initialValues after handleReset is called', () => {
-    const { getProps, getByTestId } = renderForm({});
+    const { getProps, getByTestId } = renderForm({
+      initialValues: {
+        name: '',
+      },
+    });
 
     const nameInput = getByTestId('input-name');
     fireEvent.change(nameInput, {
@@ -119,7 +123,7 @@ describe('Form', () => {
     fireEvent.click(resetButton);
 
     expect(getProps().values).toEqual({
-      name: 'Toni',
+      name: '',
     });
   });
 });
