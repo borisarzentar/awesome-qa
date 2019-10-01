@@ -1,10 +1,10 @@
 import React from 'react';
-import { AwesomeForm } from '../AwesomeForm';
-import AwesomeQuestions from '../AwesomeQuestions';
 import Tooltip from '../UILibrary/Tooltip';
 import { ThemeToggle } from '../Theme';
 import { DisplaySection, FormSection } from './styled';
 import H2 from '../UILibrary/Typography/H2';
+import { SmartAwesomeForm } from '../AwesomeForm';
+import { SmartAwesomeQuestions } from '../AwesomeQuestions';
 
 const AwesomeQA = () => (
   <>
@@ -17,7 +17,7 @@ const AwesomeQA = () => (
       <H2>Created questions</H2>
     </Tooltip>
     <DisplaySection>
-      <AwesomeQuestions />
+      <SmartAwesomeQuestions />
     </DisplaySection>
     <Tooltip
       content={<div>Here you can create new questions and their answers.</div>}
@@ -25,7 +25,7 @@ const AwesomeQA = () => (
       <H2>Created questions</H2>
     </Tooltip>
     <FormSection>
-      <AwesomeForm />
+      <SmartAwesomeForm />
     </FormSection>
   </>
 );
