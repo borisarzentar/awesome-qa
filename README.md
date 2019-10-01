@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is using React, Redux and styled-components for theming and styling.
 
 ## Available Scripts
 
